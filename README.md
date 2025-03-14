@@ -12,7 +12,7 @@ Opetimizing ResNet18 for CIFAR-10 Classification.
 │  Parameter.xlsx                   # Parameter log
 │  RN18_V6_1.ipynb                  # Main file
 │  
-├─data
+├─data      # overwrite after Run 'RN18_V6_1.ipynb'
 │  │  cifar-10-python.tar.gz
 │  │  
 │  └─cifar-10-batches-py
@@ -20,7 +20,7 @@ Opetimizing ResNet18 for CIFAR-10 Classification.
 ├─input
 │      cifar_test_nolabel.pkl       # Test set
 │      
-└─output
+└─output    # overwrite after Run 'RN18_V6_1.ipynb'
         Acc.png                     # Accuracy plot
         smaller_resnet_final.pth    # Trained model
         submission.csv              # Result file
