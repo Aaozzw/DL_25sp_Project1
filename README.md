@@ -17,7 +17,7 @@ Opetimizing ResNet18 for CIFAR-10 Classification.
 │  │  
 │  └─cifar-10-batches-py
 │          
-├─input
+├─input     #Create the floder and place it in the path
 │      cifar_test_nolabel.pkl       # Test set
 │      
 └─output    # overwrite after Run 'RN18_V6_1.ipynb'
@@ -30,6 +30,7 @@ Opetimizing ResNet18 for CIFAR-10 Classification.
 ### Usage Instructions
 
 After cloning to the local Machine, you can directly run the 'RN18_V6_1.ipynb'.
+**pls create the 'input' folder and ensure that the 'cifar_test_nolavel.pkl' are inside it.**
 The results will be automatically saved on the './output' folder.
 
 If you do not to train the model and only analyze the test set.
